@@ -4,7 +4,7 @@ define("ROW_PER_PAGE",6);
 require_once('database/db.php');//db config file
 ?>
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
 	<title>Search|<?php getwebname("titles"); echo"|"; gettagline("titles");?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">

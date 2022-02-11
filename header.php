@@ -49,7 +49,7 @@
 		</div>
 
 			<div class="header_top" id="home">
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light" style="display: contents;">
 					<button class="navbar-toggler navbar-toggler-right mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 						aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>

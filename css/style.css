@@ -3,8 +3,8 @@ html,
 body {
 	margin: 0;
 	font-size: 100%;
-	font-family: 'Poppins', sans-serif;
-	background: #fff;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background: peachpuff;
 }
 
 body a {
@@ -30,7 +30,7 @@ input[type="search"] {
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	-ms-transition: 0.5s all;
-	font-family: 'Poppins', sans-serif;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1,
@@ -40,7 +40,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	font-family: 'Poppins', sans-serif;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	letter-spacing:1px;
 }
 
@@ -58,10 +58,6 @@ ul {
 	padding: 0;
 }
 
-/*--/header --*/
-
-/*-- top-bar-w3-agile --*/
-
 .header {
 	position: relative;
 }
@@ -77,8 +73,6 @@ ul {
 	top: 4%;
 	left: 3%;
 }
-
-/*--top-bar_sub_w3layouts --*/
 
 .top-bar_sub_w3layouts {
 	background: #fff;
@@ -106,7 +100,7 @@ ul {
 	padding: 8px 16px;
 	letter-spacing: 1px;
 	font-size: 13px;
-	background: #01cd74;
+	background: #07c9c9;
 	display: inline-block;
 	border: 2px solid transparent;
 	font-weight: bold;
@@ -139,7 +133,7 @@ a.sign {
     color: #707173;
 }
 .top-forms a i{
-	color:#01cd74;
+	color:#c177ec;
 }
 .social_list1 li {
 	display: inline-block;
@@ -189,7 +183,8 @@ ul.social_list1 li a:hover{
 }
 
 .bg-light {
-    background-color: #c7ba04 !important;
+    background-color: #3d3535 !important;
+	display: contents;
 }
 
 a.navbar-brand {
@@ -1217,6 +1212,10 @@ a.facebook:hover {
 		width: 34%;
 	}
 }
+.top-bar_sub_w3layouts {
+	padding: 0.3em 1em;
+	background-color: peachpuff;
+}
 @media(max-width:1080px) {
 	.carousel-caption h2, .carousel-caption h3 {
 		font-size: 3.5em;
@@ -1233,6 +1232,7 @@ a.facebook:hover {
 	}
 	.top-bar_sub_w3layouts {
 		padding: 0.3em 1em;
+		background-color: peachpuff;
 	}
 	.floods-text h3 {
 		font-size: .8em;
@@ -1323,9 +1323,14 @@ a.facebook:hover {
 	}
 }
 
+.logo {
+	font-family: 'Font Awesome 5 Free' ;
+}
+
 @media(max-width:767px) {
 	.logo{
 		text-align: center!important;
+		
 	}
 	.log-icons{
 		text-align: center!important;
