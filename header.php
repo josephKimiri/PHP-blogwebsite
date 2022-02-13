@@ -29,7 +29,7 @@
 						</li>
 						<li>
 							<a href="<?php getlinks("links","twitter");?>" class="twitter2">
-								<i class="fab fa-twitter"></i>
+								<i class="fab fa-twitter" ></i>
 
 							</a>
 						</li>
@@ -45,6 +45,8 @@
 						</li>
 					</ul>
 				</div>
+				
+				
 			</div>
 		</div>
 
