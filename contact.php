@@ -98,14 +98,10 @@
 					</div>
 				</div>
 			</section>
-			<!--//main-->
-			<!--footer-->
 			<?php include("footer.php");?>
-			<!---->
-			<!-- js -->
+			
 			<script src="js/jquery-2.2.3.min.js"></script>
-			<!-- //js -->
-			<!--/ start-smoth-scrolling -->
+		
 			<script src="js/move-top.js"></script>
 			<script src="js/easing.js"></script>
 			<script>
