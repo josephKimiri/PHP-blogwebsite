@@ -67,7 +67,7 @@
 				</div>
 				<div class="w3layouts-agile-copyrightbottom">
 
-						<a href="#">Privacy Policy</a>
+						<a href="index2.php">Privacy Policy</a>
 						|<a href="#">Terms and condition</a>
 						<p> M&M Tech Blog <?php $current=date("Y"); print_r($current);?> | Brought To You by
 						<a href="https://youtu.be/hrc810fKUZc" target="_blank">Mash Developers</a><br>

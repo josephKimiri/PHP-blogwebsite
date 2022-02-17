@@ -1,12 +1,3 @@
-/*!
-* Version 1.2.3.1
-* jQuery: desoSlide plugin - jquery.desoslide.js
-* Copyright - 2013 - https://github.com/sylouuu/desoslide
-* This source code is under the MIT License
-*/
-
-/*jslint browser: true, devel: true, eqeq: true, plusplus: true, unparam: true, vars: true, white: true */
-/*global $, jQuery*/
 (function($) {
 
     'use strict';

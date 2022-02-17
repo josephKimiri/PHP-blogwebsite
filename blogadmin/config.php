@@ -22,7 +22,7 @@
 		'PHPDateFormat' => "n/j/Y",
 		'PHPDateTimeFormat' => "m/d/Y, h:i a",
 		'senderName' => "Membership management",
-		'senderEmail' => "ronniengoda@gmail.com",
+		'senderEmail' => "josephmanash@gmail.com",
 		'approvalSubject' => "Your membership is now approved",
 		'approvalMessage' => "Dear member,\r\n\r\nYour membership is now approved by the admin. You can log in to your account here:\r\nhttp://localhost/blogadmin\r\n\r\nRegards,\r\nAdmin",
 		'hide_twitter_feed' => "",
