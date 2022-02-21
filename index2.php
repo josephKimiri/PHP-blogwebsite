@@ -10,8 +10,8 @@
 <style>
     h1{color:maroon;}
     p{font-family:verdana;
-        font-size: 20px;
-        background-color:lightblue:
+      font-size: 20px;
+      background-color:lightblue:
     
     
     }

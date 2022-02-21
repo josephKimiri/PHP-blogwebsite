@@ -188,19 +188,8 @@ var Util = function ($$$1) {
   return Util;
 }($);
 
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v4.0.0): alert.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * --------------------------------------------------------------------------
- */
-
 var Alert = function ($$$1) {
-  /**
-   * ------------------------------------------------------------------------
-   * Constants
-   * ------------------------------------------------------------------------
-   */
+  
   var NAME = 'alert';
   var VERSION = '4.0.0';
   var DATA_KEY = 'bs.alert';
@@ -220,12 +209,7 @@ var Alert = function ($$$1) {
     ALERT: 'alert',
     FADE: 'fade',
     SHOW: 'show'
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
+    
   };
 
   var Alert =
@@ -360,19 +344,9 @@ var Alert = function ($$$1) {
   return Alert;
 }($);
 
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v4.0.0): button.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * --------------------------------------------------------------------------
- */
 
 var Button = function ($$$1) {
-  /**
-   * ------------------------------------------------------------------------
-   * Constants
-   * ------------------------------------------------------------------------
-   */
+ 
   var NAME = 'button';
   var VERSION = '4.0.0';
   var DATA_KEY = 'bs.button';
@@ -506,11 +480,7 @@ var Button = function ($$$1) {
     var button = $$$1(event.target).closest(Selector.BUTTON)[0];
     $$$1(button).toggleClass(ClassName.FOCUS, /^focus(in)?$/.test(event.type));
   });
-  /**
-   * ------------------------------------------------------------------------
-   * jQuery
-   * ------------------------------------------------------------------------
-   */
+  
 
   $$$1.fn[NAME] = Button._jQueryInterface;
   $$$1.fn[NAME].Constructor = Button;
@@ -523,19 +493,9 @@ var Button = function ($$$1) {
   return Button;
 }($);
 
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v4.0.0): carousel.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * --------------------------------------------------------------------------
- */
 
 var Carousel = function ($$$1) {
-  /**
-   * ------------------------------------------------------------------------
-   * Constants
-   * ------------------------------------------------------------------------
-   */
+ 
   var NAME = 'carousel';
   var VERSION = '4.0.0';
   var DATA_KEY = 'bs.carousel';
@@ -597,12 +557,7 @@ var Carousel = function ($$$1) {
     INDICATORS: '.carousel-indicators',
     DATA_SLIDE: '[data-slide], [data-slide-to]',
     DATA_RIDE: '[data-ride="carousel"]'
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
+  
   };
 
   var Carousel =
@@ -1022,19 +977,8 @@ var Carousel = function ($$$1) {
   return Carousel;
 }($);
 
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v4.0.0): collapse.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * --------------------------------------------------------------------------
- */
-
 var Collapse = function ($$$1) {
-  /**
-   * ------------------------------------------------------------------------
-   * Constants
-   * ------------------------------------------------------------------------
-   */
+
   var NAME = 'collapse';
   var VERSION = '4.0.0';
   var DATA_KEY = 'bs.collapse';
@@ -1070,12 +1014,7 @@ var Collapse = function ($$$1) {
   var Selector = {
     ACTIVES: '.show, .collapsing',
     DATA_TOGGLE: '[data-toggle="collapse"]'
-    /**
-     * ------------------------------------------------------------------------
-     * Class Definition
-     * ------------------------------------------------------------------------
-     */
-
+    
   };
 
   var Collapse =
@@ -1391,12 +1330,6 @@ var Collapse = function ($$$1) {
   return Collapse;
 }($);
 
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v4.0.0): dropdown.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * --------------------------------------------------------------------------
- */
 
 var Dropdown = function ($$$1) {
   /**
@@ -1856,12 +1789,7 @@ var Dropdown = function ($$$1) {
   return Dropdown;
 }($, Popper);
 
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v4.0.0): modal.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * --------------------------------------------------------------------------
- */
+
 
 var Modal = function ($$$1) {
   /**

@@ -188,7 +188,7 @@ $roo=mysqli_fetch_assoc($feedback);?>
 
 							 	});
 							 </script>
-							 <a href="#home" class="scroll" id="toTop" style="display: block;">
+							 <a href="#" class="scroll" id="toTop" style="display: block;">
 							 	<span id="toTopHover" style="opacity: 1;"> </span>
 							 </a>
 

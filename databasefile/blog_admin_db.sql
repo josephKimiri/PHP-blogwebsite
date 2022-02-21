@@ -76,14 +76,15 @@ CREATE TABLE `links` (
   `twitter` varchar(40) DEFAULT NULL,
   `googleplus` varchar(40) DEFAULT NULL,
   `pinterest` varchar(40) DEFAULT NULL,
-  `dribble` varchar(40) DEFAULT NULL,
+  `linkedin` varchar(40) DEFAULT NULL,
+  `instagram` varchar(40) DEFAULT NULL,
   `comments_script` text,
   `sharing_script` text,
   `javascript` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `links` (`id`, `facebook`, `twitter`, `googleplus`, `pinterest`, `dribble`, `comments_script`, `sharing_script`, `javascript`) VALUES
-(1, 'http://www.facebook.com', 'https://twitter.com/Mashkimiri', 'http://www.plus.google.com', 'http://www.pinterest.com', 'http://www.dribble.com', '<div class=\"fb-comments container\" data-href=\"http://www.uoecu.org/newsview.php?id=<?php echo $row[\'id\'];?>\" data-numposts=\"20\" width=\"100%\"></div>', '<div class=\"addthis_sharing_toolbox\"></div>', '<script>(function(d, s, id) {\r\n		var js, fjs = d.getElementsByTagName(s)[0];\r\n		if (d.getElementById(id)) return;\r\n		js = d.createElement(s); js.id = id;\r\n		js.src = \'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=298807240601869\';\r\n		fjs.parentNode.insertBefore(js, fjs);\r\n	}(document, \'script\', \'facebook-jssdk\'));</script>\r\n<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57587edcb1479678\"></script>');
+INSERT INTO `links` (`id`, `facebook`, `twitter`, `googleplus`, `pinterest`, `linkedin` 'instagram', `comments_script`, `sharing_script`, `javascript`) VALUES
+(1, 'http://www.facebook.com', 'https://twitter.com/Mashkimiri', 'http://www.plus.google.com', 'http://www.pinterest.com', 'http://www.linkedin.com' 'http://www.instagram.com', '<div class=\"fb-comments container\" data-href=\"http://www.uoecu.org/newsview.php?id=<?php echo $row[\'id\'];?>\" data-numposts=\"20\" width=\"100%\"></div>', '<div class=\"addthis_sharing_toolbox\"></div>', '<script>(function(d, s, id) {\r\n		var js, fjs = d.getElementsByTagName(s)[0];\r\n		if (d.getElementById(id)) return;\r\n		js = d.createElement(s); js.id = id;\r\n		js.src = \'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=298807240601869\';\r\n		fjs.parentNode.insertBefore(js, fjs);\r\n	}(document, \'script\', \'facebook-jssdk\'));</script>\r\n<script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57587edcb1479678\"></script>');
 
 CREATE TABLE `membership_grouppermissions` (
   `permissionID` int(10) UNSIGNED NOT NULL,

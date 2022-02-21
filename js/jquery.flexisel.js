@@ -1,14 +1,3 @@
-/*
-* File: jquery.flexisel.js
-* Version: 2.2.1
-* Description: Responsive carousel jQuery plugin
-* Author: 9bit Studios
-* Copyright 2016, 9bit Studios
-* http://www.9bitstudios.com
-* Free to use and abuse under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*/
-
 (function ($) {
 
     $.fn.flexisel = function (options) {
@@ -83,7 +72,8 @@
                 
                 var obj = settings.responsiveBreakpoints;
                 for(var i in obj) { responsivePoints.push(obj[i]); }
-                responsivePoints.sort(function(a, b) { return a.changePoint - b.changePoint; });
+                responsivePoints.sort(function(a, b) { return a.changePo/* UItoTop jQuery Plugin 1.2 | Matt Varone | http://www.mattvarone.com/web-design/uitotop-jquery-plugin */
+                    int - b.changePoint; });
                 var childSet = object.children();
                 childSet.first().addClass("index");
                 itemsWidth = methods.getCurrentItemWidth();
