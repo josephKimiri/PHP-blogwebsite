@@ -2,6 +2,10 @@
 
 // CHECK IF PAGE EXISTS IN PAGE HIT TABLE
 function checkPageName($page_name){
+	echo"=====-------------------------------------fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff-";
+	echo $GLOBALS;
+	echo"=====-------------------------------------fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff-";
+
 	$sql = "SELECT * FROM ".$GLOBALS['hits_table_name']." WHERE page = :page";
 	$query = $GLOBALS['db']->prepare($sql);
 	$query->execute([':page' => $page_name]);
