@@ -6,6 +6,8 @@ function checkPageName($page_name){
 	echo $GLOBALS;
 	echo"=====-------------------------------------fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff-";
 
+	echo "<script>console.log(`" . json_encode($GLOBALS) . "`);</script>";
+
 	$sql = "SELECT * FROM ".$GLOBALS['hits_table_name']." WHERE page = :page";
 	$query = $GLOBALS['db']->prepare($sql);
 	$query->execute([':page' => $page_name]);
