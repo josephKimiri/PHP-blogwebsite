@@ -115,23 +115,23 @@ $roo=mysqli_fetch_assoc($feedback);?>
 											<ul>
 
 												<li>
-													<a class="twitter" href="<?php getlinks("links","twitter");?>">
+													<a class="twitter" href="<?php getlinks("links","twitter");?>" target="_blank">
 														<i class="fab fa-twitter"></i>
 														<span class="count"></span> Twitter</a>
 													</li>
 													<li>
-														<a class="facebook" href="<?php getlinks("links","facebook");?>">
+														<a class="facebook" href="<?php getlinks("links","facebook");?>" target="_blank">
 															<i class="fab fa-facebook-f"></i>
 															<span class="count"></span> Facebook</a>
 														</li>
 														<li>
-															<a class="dribble" href="<?php getlinks("links","dribble");?>">
+															<a class="dribble" href="<?php getlinks("links","dribble");?>" target="_blank">
 																<i class="fab fa-dribbble"></i>
 
-																<span class="count"></span> Dribble</a>
+																<span class="count"></span> Dribbble</a>
 															</li>
 															<li>
-																<a class="pin" href="<?php getlinks("links","pinterest");?>">
+																<a class="pin" href="<?php getlinks("links","pinterest");?>" target="_blank">
 																	<i class="fab fa-pinterest"></i>
 																	<span class="count"></span> Pinterest</a>
 																</li>

@@ -27,7 +27,7 @@
 									</form>
 									<div class="clearfix"> </div>
 						   </div>
-						<p>Here at M&M we resspect your privacy and promise to never spam your email.</p>
+						<p>Here at TecHill we respect your privacy and promise to never spam your email.</p>
 					</div>
 					<!-- //subscribe -->
 				</div>
@@ -38,25 +38,25 @@
 					<div class="copyrighttop">
 						<ul>
 							<li class="mx-3">
-								<a class="facebook" href="<?php getlinks("links","facebook");?>">
+								<a class="facebook" href="<?php getlinks("links","facebook");?>" target="_blank">
 									<i class="fab fa-facebook-f"></i>
 									<span>Facebook</span>
 								</a>
 							</li>
 							<li>
-								<a class="facebook" href="<?php getlinks("links","twitter");?>">
+								<a class="facebook" href="<?php getlinks("links","twitter");?>" target="_blank">
 									<i class="fab fa-twitter"></i>
 									<span>Twitter</span>
 								</a>
 							</li>
-							<li class="mx-3">
-								<a class="facebook" href="<?php getlinks("links","googleplus");?>">
-									<i class="fab fa-google-plus-g"></i>
-									<span>Google+</span>
-								</a>
+							<li>
+							    <a class="facebook" href="<?php getlinks("links","dribble");?>" class="dribble3 mx-2" target="_blank">
+								<i class="fab fa-dribbble"></i>
+								<span>Dribble</span>
+							   </a>
 							</li>
 							<li>
-								<a class="facebook" href="<?php getlinks("links","pinterest");?>">
+								<a class="facebook" href="<?php getlinks("links","pinterest");?>" target="_blank">
 									<i class="fab fa-pinterest-p"></i>
 									<span>Pinterest</span>
 								</a>
@@ -69,7 +69,7 @@
 
 						<a href="index2.php">Privacy Policy</a>
 						|<a href="#">Terms and condition</a>
-						<p> M&M Tech Blog <?php $current=date("Y"); print_r($current);?> | Brought To You by
+						<p> TecHill <?php $current=date("Y"); print_r($current);?> | Brought To You by
 						<a href="https://youtu.be/hrc810fKUZc" target="_blank">Mash Developers</a><br>
 					</p>
 

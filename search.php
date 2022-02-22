@@ -88,7 +88,7 @@ require_once('database/db.php');//db config file
 	<!--/main-->
 	<section class="main-content-w3layouts-agileits">
 		<div class="container">
-			<h3 class="tittle">Search Results</h3>
+			<h3 class="tittle">Your Search Results</h3>
 			<div class="inner-sec">
 				<?php  if ($row_count==0) {
 		# code...

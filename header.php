@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-md-4 logo text-left">
 					<a class="navbar-brand" href="index.php">
-						<i class="fab fa-linode"></i> M&M Tech Blog</a>
+						<i class="fab fa-linode"></i> TecHill</a>
 				</div>
 				<div class="col-md-4 top-forms text-center mt-lg-3 mt-md-1 mt-0">
 					<span>Welcome Back!</span>
@@ -22,24 +22,24 @@
 					<ul class="social_list1 mt-3">
 
 						<li>
-							<a href="<?php getlinks("links","facebook");?>" class="facebook1 mx-2" >
+							<a href="<?php getlinks("links","facebook");?>" class="facebook1 mx-2" target="_blank">
 								<i class="fab fa-facebook-f"></i>
 
 							</a>
 						</li>
 						<li>
-							<a href="<?php getlinks("links","twitter");?>" class="twitter2">
+							<a href="<?php getlinks("links","twitter");?>" class="twitter2" target="_blank">
 								<i class="fab fa-twitter" ></i>
 
 							</a>
 						</li>
 						<li>
-							<a href="<?php getlinks("links","dribble");?>" class="dribble3 mx-2">
+							<a href="<?php getlinks("links","dribble");?>" class="dribble3 mx-2" target="_blank">
 								<i class="fab fa-dribbble"></i>
 							</a>
 						</li>
 						<li>
-							<a href="<?php getlinks("links","pinterest");?>" class="pin">
+							<a href="<?php getlinks("links","pinterest");?>" class="pin" target="_blank">
 								<i class="fab fa-pinterest-p"></i>
 							</a>
 						</li>
