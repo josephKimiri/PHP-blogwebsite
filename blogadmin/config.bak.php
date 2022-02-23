@@ -1,8 +1,23 @@
 <?php
-	$dbServer = 'localhost';
-	$dbUsername = 'root';
-	$dbPassword = '';
-	$dbDatabase = 'blog_admin_db';
+// COMMENT THIS CODE FROM LINE 5-14
+// WHEN THE APPLICATION IS RUNNING ON DEVELOPMENT AND 
+// UNCOMMENT IT WHEN RUNNING ON PRODUCTION
+$cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$cleardb_server = $cleardb_url["host"];
+$cleardb_username = $cleardb_url["user"];
+$cleardb_password = $cleardb_url["pass"];
+$cleardb_db = substr($cleardb_url["path"],1);
+
+$dbServer = $cleardb_server;
+$dbUsername = $cleardb_username;
+$dbPassword = $cleardb_password;
+$dbDatabase = $cleardb_db;
+
+/** !!!Uncomment this while using localhost
+	* $dbServer = 'localhost';
+	* $dbUsername = 'root';
+	* $dbPassword = '';
+	* $dbDatabase = 'blog_admin_db';*/
 
 	$adminConfig = array(
 		'adminUsername' => "admin",

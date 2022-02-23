@@ -1,6 +1,6 @@
 <?php require("libs/fetch_data.php");?>
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
 	<title><?php getwebname("titles"); echo"|"; gettagline("titles");?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
