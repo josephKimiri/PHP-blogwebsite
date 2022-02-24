@@ -1214,7 +1214,7 @@ a.facebook:hover {
 }
 .top-bar_sub_w3layouts {
 	padding: 0.3em 1em;
-	background-color:url(images/b1.jpg);
+	background-color:url(./images/b1.jpg);
 }
 @media(max-width:1080px) {
 	.carousel-caption h2, .carousel-caption h3 {
