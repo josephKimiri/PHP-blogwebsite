@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	font-size: 100%;
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	background: peachpuff;
+	background:scroll;
 }
 
 body a {
@@ -1214,7 +1214,7 @@ a.facebook:hover {
 }
 .top-bar_sub_w3layouts {
 	padding: 0.3em 1em;
-	background-color: peachpuff;
+	background-color:url(images/b1.jpg);
 }
 @media(max-width:1080px) {
 	.carousel-caption h2, .carousel-caption h3 {
@@ -1232,7 +1232,7 @@ a.facebook:hover {
 	}
 	.top-bar_sub_w3layouts {
 		padding: 0.3em 1em;
-		background-color: peachpuff;
+		background-color:seashell;
 	}
 	.floods-text h3 {
 		font-size: .8em;
