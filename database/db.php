@@ -10,12 +10,9 @@ $cleardb_username = $cleardb_url["user"];
 $cleardb_password = $cleardb_url["pass"];
 $cleardb_db = substr($cleardb_url["path"],1);
 
-function consoleLog($cleardb_server) {
 	echo '<script type="text/javascript">' .
 	  'console.log(' . $cleardb_server . ');</script>';
-}
 
-consoleLog('debugger!');
 	
 	$database_username = $cleardb_username;
 	$database_password = $cleardb_password;
