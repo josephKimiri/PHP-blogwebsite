@@ -27,7 +27,7 @@
 									</form>
 									<div class="clearfix"> </div>
 						   </div>
-						<p>Here at TecHill we respect your privacy and promise to never spam your email.</p>
+						<p>Here at TecHilll we respect your privacy and promise to never spam your email.</p>
 					</div>
 					<!-- //subscribe -->
 				</div>
@@ -52,7 +52,7 @@
 							<li>
 							    <a class="facebook" href="<?php getlinks("links","dribble");?>" class="dribble3 mx-2" target="_blank">
 								<i class="fab fa-dribbble"></i>
-								<span>Dribble</span>
+								<span>Dribbble</span>
 							   </a>
 							</li>
 							<li>

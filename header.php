@@ -4,13 +4,13 @@
 			<div class="row">
 				<div class="col-md-4 logo text-left">
 					<a class="navbar-brand" href="index.php">
-						<i class="fab fa-linode"></i> TecHill</a>
+						<i class="fab fa-linode"></i> TecHilll</a>
 				</div>
 				<div class="col-md-4 top-forms text-center mt-lg-3 mt-md-1 mt-0">
 					<span>Welcome Back!</span>
 					<span class="mx-lg-4 mx-md-2  mx-1">
 						<a href="blogadmin/index.php">
-							<i class="fas fa-lock"></i> <strong>Sign In</strong></a>
+							<i class="fas fa-lock"></i> <strong>Login</strong></a>
 					</span>
 					<span>
 						<a href="blogadmin/membership_signup.php">
