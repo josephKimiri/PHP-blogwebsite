@@ -10,9 +10,9 @@ $cleardb_username = $cleardb_url["user"];
 $cleardb_password = $cleardb_url["pass"];
 $cleardb_db = substr($cleardb_url["path"],1);
 
-	echo '<script console.log('. $cleardb_server . ');</script>';
-
-	
+function console_log($cleardb_server, $with_script_tags = true) {
+    $js_code = 'console.log(' . json_encode($cleardb_server, JSON_HEX_TAG) .');';
+}
 	$database_username = $cleardb_username;
 	$database_password = $cleardb_password;
 	$pdo_conn = new PDO( 'mysql:host=' + $cleardb_server + ';dbname=' + $cleardb_db);
