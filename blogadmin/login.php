@@ -1,4 +1,9 @@
-<?php if(!isset($Translation)){ @header('Location: index.php?signIn=1'); exit; } ?>
+<?php 
+ini_set("display_errors", 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+if(!isset($Translation)){ @header('Location: index.php?signIn=1'); exit; } ?>
 <?php include_once("$currDir/header.php"); ?>
 
 <?php if($_GET['loginFailed']){ ?>

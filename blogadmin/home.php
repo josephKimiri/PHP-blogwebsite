@@ -3,6 +3,9 @@
 <?php @include("{$currDir}/hooks/links-home.php"); ?>
 
 <?php
+ini_set("display_errors", 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 	/*
 		Classes of first and other blocks
 		---------------------------------

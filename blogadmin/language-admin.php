@@ -12,6 +12,9 @@
 	// =====================================================
 
 	// incHeader.php
+	ini_set("display_errors", 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 	$Translation['membership management'] = "Membership Management";
 	$Translation['password mismatch'] = "Password doesn\'t match.";
 	$Translation['error'] = "Error";
