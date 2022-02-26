@@ -10,8 +10,8 @@ $cleardb_username = $cleardb_url["user"];
 $cleardb_password = $cleardb_url["pass"];
 $cleardb_db = substr($cleardb_url["path"],1);
 
-function console_log($cleardb_server, $with_script_tags = true) {
-    $js_code = 'console.log(' . json_encode($cleardb_server, JSON_HEX_TAG) .');';
+function console_log($cleardb_url, $with_script_tags = true) {
+    $js_code = 'console.log(' . json_encode($cleardb_url, JSON_HEX_TAG) .');';
 }
 	$database_username = $cleardb_username;
 	$database_password = $cleardb_password;
