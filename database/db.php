@@ -12,5 +12,5 @@ $cleardb_db = substr($cleardb_url["path"],1);
 
 	$database_username = $cleardb_username;
 	$database_password = $cleardb_password;
-	$pdo_conn = new PDO( "mysql:host= {$cleardb_server};dbname= {$cleardb_db}");
+	$pdo_conn = new PDO( 'mysql:host=' + $cleardb_server + ';dbname=' + $cleardb_db);
 ?>
