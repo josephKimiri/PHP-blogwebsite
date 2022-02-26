@@ -69,7 +69,7 @@
 
 						<a href="index2.php">Privacy Policy</a>
 						|<a href="#">Terms and condition</a>
-						<p> TecHill <?php $current=date("Y"); print_r($current);?> | Brought To You by
+						<p> TecHilll <?php $current=date("Y"); print_r($current);?> | Brought To You by
 						<a href="https://youtu.be/hrc810fKUZc" target="_blank">Mash Developers</a><br>
 					</p>
 
