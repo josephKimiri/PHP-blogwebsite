@@ -1,7 +1,7 @@
 <?php
 
 	$app_name = 'TECHILLL BLOG ADMIN';
-	$currDir = dirname(__FILE__);
+	
 	include("defaultLang.php");
 	include("language.php");
 	include("lib.php");
