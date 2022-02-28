@@ -9,11 +9,11 @@
 
 	$adminConfig = config('adminConfig');
 
-	//if(!$cg = sqlValue("select count(1) from membership_groups where allowSignup=1")){
-		//$noSignup = true;
-		//echo error_message($Translation['sign up disabled']);
-	//	exit;
-	//}
+	if(!$cg = sqlValue("select count(1) from membership_groups where allowSignup=1")){
+		$noSignup = true;
+		echo error_message($Translation['sign up disabled']);
+	exit;
+	}
 
 	if($_POST['signUp'] != ''){
 		// receive data
