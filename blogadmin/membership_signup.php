@@ -1,12 +1,10 @@
 <?php
-error_reporting(E_WARNING);
-
 	$app_name = 'TECHILLL BLOG ADMIN';
 	$currDir = dirname(__FILE__);
-	include("{$currDir}/defaultLang.php");
-	include("{$currDir}/language.php");
-	include("{$currDir}/lib.php");
-	include_once("{$currDir}/header.php");
+	include 'defaultLang.php';
+	include 'language.php';
+	include 'lib.php';
+	include_once 'header.php';
 
 	$adminConfig = config('adminConfig');
 
@@ -298,4 +296,4 @@ error_reporting(E_WARNING);
 
 <?php } ?>
 
-<?php include_once("{$currDir}/footer.php"); ?>
+<?php include_once 'footer.php'; ?>
