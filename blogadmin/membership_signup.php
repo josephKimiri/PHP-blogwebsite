@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_WARNING);
 
 	$app_name = 'TECHILLL BLOG ADMIN';
 	$currDir = dirname(__FILE__);
