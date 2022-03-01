@@ -165,29 +165,17 @@ ul.social_list1 li a:hover{
 }
 .facebook1 {
 	background: #3b5998;
-	width: 200px;
-    height: 100px;
-    border-radius: 20px;
 }
 
 .twitter2 {
 	background: #1da1f2;
-	width: 200px;
-    height: 100px;
-    border-radius: 20px;
 }
 
 .dribble3 {
 	background: #ea4c89;
-	width: 200px;
-    height: 100px;
-    border-radius: 20px;
 }
 .pin {
 	background: #BD081C;
-	width: 200px;
-    height: 100px;
-    border-radius: 20px;
 	
 }
 
@@ -770,15 +758,27 @@ ul.blog-icons i {
 
 .widget_social li a.twitter {
     background: #57baf7;
+	width: 200px;
+    height: 100px;
+    border-radius: 20px;
 }
 .widget_social li a.facebook {
     background: #3b5998;
+	width: 200px;
+    height: 100px;
+    border-radius: 20px;
 }
 .widget_social li a.dribble {
 	background: #ea4c89;
+	width: 200px;
+    height: 100px;
+    border-radius: 20px;
 }
 .widget_social li a.pin {
 	background: #BD081C;
+	width: 200px;
+    height: 100px;
+    border-radius: 20px;
 }
 .widget_social li a i {
     font-size: 18px;
@@ -802,11 +802,6 @@ ul.blog-icons i {
     color: #a9abad;
     line-height: 2.5em;
 }
-/*--//right--*/
-/*--//main-content-w3layouts-agileits --*/
-
-/*-- //services --*/
-/*-- mid --*/
 .list-inline> li {
     margin: 1.2em 0;
     display: block;
